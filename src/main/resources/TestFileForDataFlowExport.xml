@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+   
+	<!-- <test name="Create export active script">
+		<classes>
+			<class name="org.cs.csautomation.cs.dataflow.DataflowCSVExportTest" />
+		</classes>
+	</test> -->
+
+    <test name="Verify Export Data Target type">
+		<classes>
+			<class name="org.cs.csautomation.cs.dataflow.VerifyExportDataTargetTypeTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="Verify Data Export From Pim Studio">
+		<classes>
+			<class name="org.cs.csautomation.cs.dataflow.VerifyExecutionFromPimStudioExportTest" />
+		</classes>
+	</test> 
+ 	 
+ 	<test name="Logout Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.logout.LogoutTest" />
+		</classes>
+	</test> -->
+</suite>

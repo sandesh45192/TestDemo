@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Articles>
+  <Article>
+    <Externalkey>19345</Externalkey>
+    <Name>testdataflowimportsecond</Name>
+  </Article>
+<Article>
+    <Externalkey>11070</Externalkey>
+    <Name>newproduct</Name>
+  </Article>
+</Articles>

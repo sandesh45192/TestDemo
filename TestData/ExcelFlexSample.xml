@@ -1,0 +1,718 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Alex Admin - CONTENTSERV GmbH</Author>
+  <LastAuthor>Ehmann Alexander - CONTENTSERV GmbH</LastAuthor>
+  <Created>2016-11-17T07:08:00Z</Created>
+  <LastSaved>2016-12-16T09:39:53Z</LastSaved>
+  <Company>CONTENTSERV GmbH</Company>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9030</WindowHeight>
+  <WindowWidth>27315</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>90</WindowTopY>
+  <ActiveSheet>2</ActiveSheet>
+  <Calculation>ManualCalculation</Calculation>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21" ss:Name="Überschrift">
+   <Font ss:FontName="Cambria" x:Family="Swiss" ss:Size="18" ss:Color="#333399"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s24" ss:Name="Überschrift 3">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#333399"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s25" ss:Name="Überschrift 4">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333399"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s63" ss:Parent="s24">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#333399"
+    ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s24">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Borders/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s77" ss:Parent="s25">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s79" ss:Parent="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s86" ss:Parent="s24">
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s91" ss:Parent="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s93" ss:Parent="s21">
+   <Alignment ss:Vertical="Bottom"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sample Worksheet 1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="121.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="174"/>
+   <Column ss:AutoFitWidth="0" ss:Width="136.5"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s63">
+    <Cell ss:MergeAcross="2" ss:StyleID="s65"><Data ss:Type="String">Merge Cell Sample</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s25">
+    <Cell><Data ss:Type="String">Cell A Numbers with dot</Data></Cell>
+    <Cell><Data ss:Type="String">Cell B Numbers with comma</Data></Cell>
+    <Cell><Data ss:Type="String">Cell C Mixed separator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+    <Cell><Data ss:Type="String">1.00001</Data></Cell>
+    <Cell><Data ss:Type="String">1,20002</Data></Cell>
+    <Cell><Data ss:Type="String">3.40004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+    <Cell><Data ss:Type="String">4.40004</Data></Cell>
+    <Cell><Data ss:Type="String">5,30003</Data></Cell>
+    <Cell><Data ss:Type="String">6,60006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+    <Cell><Data ss:Type="String">7.60006</Data></Cell>
+    <Cell><Data ss:Type="String">8,80008</Data></Cell>
+    <Cell><Data ss:Type="String">9.30003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+    <Cell><Data ss:Type="String">8.50005</Data></Cell>
+    <Cell><Data ss:Type="String">7,80008</Data></Cell>
+    <Cell><Data ss:Type="String">1,30003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+    <Cell ss:MergeAcross="2" ss:StyleID="s70"><Data ss:Type="String">108887756673,43454783567</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="2" ss:StyleID="s72"><Data ss:Type="String">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="s72"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Value</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="s72"><Data ss:Type="String">Year </Data></Cell>
+    <Cell><Data ss:Type="Number">2017</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sample Worksheet 2">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="3" ss:StyleID="s65"><Data ss:Type="String">Merge Cell</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s25">
+    <Cell ss:MergeAcross="2" ss:StyleID="s76"><Data ss:Type="String">Numbers</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">7.55666</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">6.34</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">77.88</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text.Text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">54545.7777</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">54546,4445</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">5464.5533</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text,Text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">3423.4546</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">454,5762</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">565.6444</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text-Text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">44.6456</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">66,45431</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">565.3444</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text:Text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">56.5674</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">769,4446</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">4.6543</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text_Text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text_Text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="3" ss:StyleID="s79"><Data ss:Type="String">Merge Cell</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="s72"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s72"><Data ss:Type="String">Text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="3" ss:StyleID="s72"><Data ss:Type="String">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sample Worksheet 3">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="3" ss:StyleID="s70"><Data ss:Type="String">Merge Sample Table</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Title 1</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Title 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Label 1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Label 2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Label 3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Label 4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Number with dot</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Number with comma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1.2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">2.3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1,2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">2,3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1.46</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">3.53</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">3,26</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">3,66</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="2" ss:StyleID="s70"><Data ss:Type="String">Lable</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Value</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="2" ss:StyleID="s81"><Data ss:Type="String">Diameter (cm)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1,5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="2" ss:StyleID="s81"><Data ss:Type="String">Radius (cm)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">0.75</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="2" ss:StyleID="s68"><Data ss:Type="String">Height (cm)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">10,5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">123.540009</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">987,5670008</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">676.5555508</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">555,5555508</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sample Worksheet 4">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="30.75"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="128.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="117.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="129"/>
+   <Column ss:Width="531"/>
+   <Column ss:AutoFitWidth="0" ss:Width="79.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="22.5">
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:MergeAcross="6" ss:StyleID="s91"><Data ss:Type="String">Cities</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5" ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Nr.</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Country</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Continent Code</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">State</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Address</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Latitude</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Langitude</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Aalesund</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Norway</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Møre og Romsdal</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Skansegata, 6002 Ålesund, Norway</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">62.472301</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">6.154900</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Adelaide</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Australia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">OC</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">South Australia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1 Grote St, Adelaide SA 5000, Australia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-34.928699</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">138.598602</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Amsterdam</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Netherlands</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Noord-Holland</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Wibautstraat 220, 1097 DN Amsterdam, Netherlands</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">52.349998</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">4.916700</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Ankara</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Turkey</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Ankara</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Mebusevleri Mh., Anıtkabir, 06570 Çankaya/Ankara, Turkey</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">39.923000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">32.837799</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Antwerpen</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Belgium</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Vlaanderen</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Quellinstraat 23, 2018 Antwerpen, Belgium</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">51.216702</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">4.416700</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Baden</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Switzerland</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Aargau</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Brenntrainstrasse 10, 5400 Baden, Switzerland</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">47.471600</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">8.292500</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Rohrbach</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Germany</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bavaria</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Werner-von-Siemens-Str. 1, 85296 Rohrbach, Germany</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">48.283298</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">12.566700</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bangkok</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Thailand</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AS</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Krung Thep Maha Nakhon</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">189/338 Soi Suwan Phutsa, Khwaeng Bang Khun Si, Khet Bangkok Noi, Krung Thep Maha Nakhon 10700, Thailand</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">13.750000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">100.466698</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Barcelona</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Spain</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Catalunya</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Carrer d'Aribau, 66, 08011 Barcelona, Spain</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">41.388802</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">2.159000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Cádiz</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Gibraltar</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Andalucía</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Av. de Granada, 15, 11314 San Roque, Cádiz, Spain</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">36.183300</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-5.366700</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Canberra</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Australia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">OC</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Australian Capital Territory</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">9 Bowen Dr, Barton ACT 2600, Australia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-35.304901</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">149.141205</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Casablanca</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Morocco</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AF</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Grand Casablanca</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Boulevard de Paris, Casablanca 20250, Morocco</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">33.592800</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-7.619200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Ciudad de México</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Mexico</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Ciudad de México</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Calle del Correo Mayor 62, Centro Histórico, Centro, 06000 Ciudad de México, D.F., Mexico</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">19.430000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-99.129997</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Eindhoven</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Netherlands</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Noord-Brabant</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Volderhof, 5611 Eindhoven, Netherlands</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">51.440800</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">5.477800</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Guatemala City</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Guatemala</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Guatemala</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Building 31, 30 Calle 31, Guatemala</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">14.621100</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-90.526901</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Istanbul</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Turkey</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">İstanbul</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Demirtaş, Tesviyeci Sk. No:7, 34134 Fatih/İstanbul, Turkey</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">41.018600</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">28.964701</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Jakarta</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Indonesia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AS</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Daerah Khusus Ibukota Jakarta</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Jl. Kw. Monas, Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-6.174400</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">106.829399</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Johannesburg</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">South Africa</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AF</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Gauteng</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Absa Tower, Johannesburg, 2094, South Africa</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-26.205200</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">28.049801</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Kajang</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Malaysia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AS</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Selangor</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Lebuhraya Cheras - Kajang, 43000 Kajang, Selangor, Malaysia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">3.009400</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">101.775497</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Lima</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">SA</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Departamento de Lima</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Av Aguarico 114, Distrito de Lima 15082, Peru</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-12.050000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-77.050003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Moscow</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Russian Federation</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Moscow</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Troitskaya ul., Moskva, Russia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">55.752201</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">37.615601</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">New Delhi</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">India</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AS</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Delhi</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">7, Teen Murti Marg Area, New Delhi, Delhi 110011</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">28.600000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">77.199997</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Oslo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Norway</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Oslo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Møllergata 30, 0179 Oslo, Norway</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">59.916698</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">10.750000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">France</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Île-de-France</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">3532 Quai des Tuileries, 75001 Paris, France</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">48.858200</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">2.338700</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Rome</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Italy</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Lazio</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Via Piave, 15, 00187 Roma, Italy</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">41.900002</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">12.483300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">São Paulo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Brazil</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">SA</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">São Paulo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">R. da Quitanda, 162 - Centro, São Paulo - SP, Brazil</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-23.547701</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-46.635799</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Taipei</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Taiwan</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AS</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Taipei City</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">No. 51, Danyang St, Zhongzheng District, Taipei City, Taiwan 100</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">25.039200</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">121.525002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Waitata</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">New Zealand</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">OC</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Marlborough</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1350 Te Towaka-Port Ligar Rd, Waitata 7193, New Zealand</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-41.000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">174.000000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Wien</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Austria</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Wien</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">B1, 1010 Wien, Austria</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">48.200001</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">16.366699</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Xian</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">China</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AS</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Shaanxi Sheng</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1 Luo Tuo Xiang, ErHuan Lu YanXian ShangYe JingJiDai, Lianhu Qu, Xian Shi, Shaanxi Sheng, China, 710021</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">34.258301</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">108.928596</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Zagreb</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Croatia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">EU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">City of Zagreb</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Pašmanska ul. 2, 10000, Zagreb, Croatia</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">45.799999</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">16.000000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s87"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

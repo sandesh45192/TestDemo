@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener"/>
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener"/>
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener"/>
+ 	</listeners>
+
+	  <test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest"/>
+		</classes>
+	  </test>
+	
+	   <test name="Create Role Test">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.CreateRoleTest"/>
+		</classes>
+ 	  </test>  
+ 	
+ 	  <test name="Create Access Levels">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.CreateAccessLevelTest"/>
+		</classes>
+ 	  </test>  
+  	
+       <test name="Create User Group and User">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.CreateUserGroupAndUserTest"/>
+		</classes>
+ 	  </test>  
+ 	
+       <test name="Assign User Role And Access Right">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.AssignUserRoleAndAccessRightTest"/>
+		</classes>
+ 	  </test>    
+ 	
+       <test name="Verify Assigned User Rights">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerifyAssignedUserRightsTest"/>
+		</classes>
+ 	  </test>      
+ 	
+       	<test name="Create Attribute Folder test">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.CreateAttributeFolderTest"/>
+		</classes>
+ 	 </test>   
+ 	
+ 	 <test name="Create Attribute  test">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.CreateAttributeTest"/>
+		</classes>
+ 	</test>     
+ 	
+ 	  <test name="Create Class test">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.CreateClassTest"/>
+		</classes>
+ 	 </test>   
+ 	 
+ 	  <test name="Assign Attributes To Class test">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.AssignAttributesToClassTest"/>
+		</classes>
+ 	 </test>    
+ 	 
+ 	 <test name="Verify Password Patterns">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerifyPasswordPatternsTest"/>
+		</classes>
+ 	 </test> 
+ 
+	<!--   <test name="Verify Forgot Passwords">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerifyForgotPasswordTest"/>
+		</classes>
+ 	 </test>
+ 	 
+ 	  <test name="Verify Sign up feature without adding user group">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerificationOfSignUpWithoutAddingGroupTest"/>
+		</classes>
+ 	 </test>
+ 	 
+    <test name="Verify blank data">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerifyBlankDataTest"/>
+		</classes>
+	</test>       
+	
+      <test name="Verify invalid email address">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerifyInvalidEmailAddressTest"/>
+		</classes>
+	</test>    
+ 	 
+ 	 <test name="Verify valid mail and blank password">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerifyValidMailAndBlankPasswordTest"/>
+		</classes>
+	</test>   
+	
+	 <test name="Verify already existing mail and password">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerifyExistingMailAndPasswordTest"/>
+		</classes>
+	</test> 
+	 	 
+ 	 <test name="Verify valid email and incorrect password">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerifyValidEmailAndIncorrectPasswordTest"/>
+		</classes>
+	</test>  
+ 	 
+ 	 <test name="General navigation sign up dialog">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.GeneralNavigationSignUpDialogTest"/>
+		</classes>
+	</test>  -->
+ 	 
+ 	   
+ 	    <test name="Edit access level">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.EditAccessLevelTest"/>
+		</classes>
+ 	 </test> 
+ 	 
+ 	 <test name="Edit User Role">
+		 <classes>
+			<class name="org.cs.csautomation.usermanagement.EditUserRoleTest"/>
+		</classes>
+ 	 </test>
+ 	
+ 	 <test name="Delete Access Level">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.DeleteAccessLevelTest"/>
+		</classes>
+ 	 </test>
+ 	 
+ 	  <test name="Delete User Role">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.DeleteUserRoleTest"/>
+		</classes>
+ 	 </test>    
+ 	 
+ 	  <test name="Verify Settings option can be saved">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerifySaveSettingsOptionTest"/>
+		</classes>
+ 	 </test>     
+ 	 
+ 	 <test name="Verify creation of monitoring logs">
+		<classes>
+			<class name="org.cs.csautomation.usermanagement.VerifyCreationOfMonitoringLogsTest"/>
+		</classes>
+	</test>   
+	
+</suite>

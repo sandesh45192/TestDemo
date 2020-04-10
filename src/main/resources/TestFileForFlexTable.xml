@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Create Attribute Vs Product Template">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.CreateAttributeVsProductTemplateTest" />
+		</classes>
+	</test>
+
+	<test name="Create Product Vs Attribute Template">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.CreateProductVsAttributeTemplateTest" />
+		</classes>
+	</test>
+
+	<test name="Create Product Vs References Template">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.CreateProductVsReferencesTemplateTest" />
+		</classes>
+	</test>
+
+	<test name="Create Excel Xml Table Template">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.CreateExcelXmlTableTemplateTest" />
+		</classes>
+	</test>
+
+	<test name="Create Attribute Vs Product Editor Template">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.CreateAttributeVsProductEditorTemplateTest" />
+		</classes>
+	</test>
+
+	<test name="Create Excel Template">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.CreateExcelTemplateTest" />
+		</classes>
+	</test>
+
+	<test name="Create Free Template">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.CreateFreeTemplateTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Structure Option">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.VerifyStructureOptionTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Invert Orientation Option">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.VerifyInvertOrientationOptionTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Layout Option">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.VerifyLayoutOptionTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Translations Option">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.VerifyTranslationsOptionTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Sample Context Option">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.VerifySampleContextOptionTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Allow Access By Option">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.VerifyAllowAccessByOptionTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Disable Option">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.flextable.VerifyDisabledOptionTest" />
+		</classes>
+	</test>
+
+	<test name="Logout Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.logout.LogoutTest" />
+		</classes>
+	</test>
+</suite>

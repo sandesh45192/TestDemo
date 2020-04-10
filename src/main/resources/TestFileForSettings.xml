@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="Create And Verify Housekeeping Script">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.CreateAndVerifyHousekeepingScriptTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Say Hello Active Job">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerifySayHelloActiveJobTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Jobs With Reports">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerifyJobsWithReportsTest" />
+		</classes>
+	</test>
+
+	<test name="Deleting Active script jobs">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.DeleteActiveScriptJobsTest" />
+		</classes>
+	</test>
+
+	<test name="Deleting Active script">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.DeleteActiveScriptTest" />
+		</classes>
+	</test>
+
+	<test name="Duplicate Active script jobs">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.DuplicateActiveScriptJobsTest" />
+		</classes>
+	</test>
+
+	<test name="Export Active Jobs As CSV">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.ExportActiveJobsAsCSVTest" />
+		</classes>
+	</test>
+
+	<test name="Export Active Jobs As Excel">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.ExportActiveJobsAsExcelTest" />
+		</classes>
+	</test>
+
+	<test name="Configuring and Verifying Active job script fields">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerifyActiveJobScriptFieldsTest" />
+		</classes>
+	</test> 
+
+	
+
+	 <test name="Create New Color with validation">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.CreateColorManagementTest" />
+		</classes>
+	</test>
+
+	<test name="Delete Color">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.DeleteColorManagementTest" />
+		</classes>
+	</test>
+
+	 <test name="Creation of Valuelist Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.CreateValuelistManagementTest" />
+		</classes>
+	</test>
+
+	<test name="delete Valuelist Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.DeleteValuelistManagementTest" />
+		</classes>
+	</test>-->
+
+	<test name="Create Language">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.CreateLanguageManagementTest" />
+		</classes>
+	</test>
+
+	<test name="Delete Language">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.DeleteLanguageManagementTest" />
+		</classes>
+	</test> 
+</suite>

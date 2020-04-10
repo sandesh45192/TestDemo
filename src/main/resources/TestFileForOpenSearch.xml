@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+<listeners>
+        <listener
+            class-name="org.cs.csautomation.listeners.SuiteListener" />
+        <listener
+            class-name="org.cs.csautomation.listeners.TestListener" />
+        <listener
+            class-name="org.cs.csautomation.listeners.ExecutionListener" />
+    </listeners>
+
+    <test name="Login Test">
+        <classes>
+            <class name="org.cs.csautomation.cs.login.LoginTest"/>
+        </classes>
+     </test>
+      
+   <!--   <test name="Configuration of shares">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.ConfigurationOfSharesTest" />
+		</classes>
+	</test>  
+
+	 <test name="Configuration of collections Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.ConfigurationOfCollectionsTest" />
+		</classes>
+	</test> 
+
+	 <test name="Configuration of favorites Test">
+		<classes>
+			<class name="org.cs.csautomation.settings.ConfigurationOfFavoritesTest" />
+		</classes>
+	</test> 
+
+      <test
+		name="Verification of landing page and landing page logo test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfLandingPageAndLogoTest" />
+		</classes>
+	</test>  
+
+	    <test name="Verification of buttons in landing page test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfButtonsInLandingPageTest" />
+		</classes>
+	</test>
+ 
+ 
+	 <test name="Verification of search field and combo box test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfSearchFieldAndComboBoxTest" />
+		</classes>
+	</test>
+
+	<test name="Verification of suggestion list in combo box test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfSuggestionListInComboBoxTest" />
+		</classes>
+	</test>
+
+	<test name="Verification of suggestion list in search box test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfSuggestionListInSearchBoxTest" />
+		</classes>
+	</test>   -->
+
+	<test
+		name="Verification of Collection Shares Favorites in combo box field test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfCollectionsSharesFavoritesInComboBoxTest" />
+		</classes>
+	</test> 
+
+ <!--<test name="Searching Any Data In Everywhere Share Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.SearchingAnyDataInEverywhereShareTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Verification Of Selection Mode In Everywhere Share Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfSelectionModeInEverywhereShareTest" />
+		</classes>
+	</test>
+ 
+	  <test name="Searching Any Data In All Shares Share Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.SearchingAnyDataInAllSharesShareTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Verification Of Selection Mode In All Shares Share Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfSelectionModeInAllSharesTest" />
+		</classes>
+	</test>
+
+	<test name="Searching Any Item In Shares Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.SearchingAnyItemInSharesTest" />
+		</classes>
+	</test> 
+
+	<test name="Verification Of Selection Mode In Shares Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfSelectionModeInSharesTest" />
+		</classes>
+	</test>
+
+	 <test name="Searching Any Item In Selected Collection Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.SearchingAnyItemInSelectedCollectionTest" />
+		</classes>
+	</test>
+
+	<test name="Verification Of Selection Mode In Collection Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfSelectionModeInCollectionTest" />
+		</classes>
+	</test>
+
+	<test name="Searching Any Item In Selected Favorites Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.SearchingAnyItemInSelectedFavoritesTest" />
+		</classes>
+	</test> 
+
+	<test name="Deletion Of Shares From Mid Pane Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.DeletionOfSharesFromMidPaneTest" />
+		</classes>
+	</test> 
+
+	<test name="Deletion Of Collection From Mid Pane Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.DeletionOfCollectionFromMidPaneTest" />
+		</classes>
+	</test>
+
+	<test name="Deletion Of Collection From Editor Pane Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.DeletionOfCollectionFromEditorPaneTest" />
+		</classes>
+	</test>
+
+	<test name="Deletion Of Shares From Editor Pane Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.DeletionOfSharesFromEditorPaneTest" />
+		</classes>
+	</test>
+
+	  <test name="Verification Of Reference List In Open Search Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.settings.VerificationOfReferenceListInOpenSearchTest" />
+		</classes>
+	</test>   -->
+    
+</suite>

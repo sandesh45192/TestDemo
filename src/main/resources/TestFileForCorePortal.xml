@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Version Verification Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.login.VersionVerificationTest" />
+		</classes>
+	</test>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Create New Portal">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.coreportal.CreatingNewPortalAndTabTest" />
+		</classes>
+	</test>
+
+	<test name="Create New Widget and Configuration">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.coreportal.CreateNewWidgetAndConfigTest" />
+		</classes>
+	</test>
+
+	<test name="Edit Widget Configuration">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.coreportal.EditWidgetConfigurationTest" />
+		</classes>
+	</test>
+
+	<test name="Edit Tab Configuration">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.coreportal.EditTabConfigurationTest" />
+		</classes>
+	</test>
+
+	<test name="Edit Portal Configuration">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.coreportal.EditPortalConfigurationTest" />
+		</classes>
+	</test>
+
+	<test name="Change Sharing Portal Type">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.coreportal.ChangeSharingTypeOfPortalTest" />
+		</classes>
+	</test>
+
+	<test name="Delete Widget">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.coreportal.DeleteExistingWidgetTest" />
+		</classes>
+	</test>
+
+	<test name="Delete Tab">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.coreportal.DeleteExistingPortalTabTest" />
+		</classes>
+	</test>
+
+	<test name="Delete Existing Portal">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.coreportal.DeleteExistingPortalTest" />
+		</classes>
+	</test>
+</suite>

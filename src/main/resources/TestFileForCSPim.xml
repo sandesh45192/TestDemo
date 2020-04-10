@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Version Verification Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.login.VersionVerificationTest" />
+		</classes>
+	</test>
+ 
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test> 
+
+   <test name="Execute PIM prerequisite steps">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.ExecutePimPrerequisiteStepsTest" />
+		</classes>
+	</test> 
+
+ 	<test name="Create Pim Attribute Folder">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.CreatePimAttributeFolderTest" />
+		</classes>
+	</test>
+
+	<test name="Create New Pim Attribute">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.CreateNewPimAttributeTest" />
+		</classes>
+	</test> 
+
+	<test name="Create Different Pim Attribute">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.CreateVariousPimAttributesTest" />
+		</classes>
+	</test>
+
+	<test name="Create Class test">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.CreateClassTest" />
+		</classes>
+	</test>
+
+	<test name="Assign attribute to created class test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.AssignAttributeToCreatedClassTest" />
+		</classes>
+	</test>
+
+	<test name="Drag and drop Attribute Onto Created Class test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.DragDropAttributeOntoCreatedClassTest" />
+		</classes>
+	</test>
+
+	<test name="CreateProduct">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.CreateProductTest" />
+		</classes>
+	</test>
+
+	<test name="CreateChildProductsTest">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.CreateChildProductsTest" />
+		</classes>
+	</test>
+
+	<test name="Drag and drop class to Product">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.DragAndDropClassToProductTest" />
+		</classes>
+	</test>
+
+	<test name="Create Views Or Channels">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.CreateViewsTest" />
+		</classes>
+	</test>
+
+	<test name="Category Tree">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.VerifyCategoryTreeCheckboxTest" />
+		</classes>
+	</test>
+
+	 <test name="Edit Product ">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.EditProductTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Verify pane fields of child products and create subchild product">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.EditSubChildProductTest" />
+		</classes>
+	</test>
+
+	<test name="Move or link product">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.MoveLinkProductTest" />
+		</classes>
+	</test>
+
+	 <test name="Create Duplicate Products Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.CreateDuplicateProductsTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Control Derivations Works Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.ControlDerivationsTest" />
+		</classes>
+	</test>
+
+	<test name="Product History Deletion Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.ProductHistoryDeletionTest" />
+		</classes>
+	</test>
+
+	<test name="Product History Restore Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.ProductHistoryRestoreTest" />
+		</classes>
+	</test>
+
+	<test name="Create view and link with product data (default)">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.LinkViewWithProductDataTest" />
+		</classes>
+	</test>
+
+	<test name="Restore View Versions And Rollback View Version">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.RestoreViewVersionsTest" />
+		</classes>
+	</test>
+
+	<test name="Delete View Version">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.DeleteViewVersionTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Bulk Editing works for Attributes">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.BulkEditAttributesTest" />
+		</classes>
+	</test>
+
+	<test name="Merge Product Content and define new master">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.MergeProductContentTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Merge Product Content Clone object,Remove object,Add object">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.MergeProductContentObjectTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Merge Product Content Replace object and compare language">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.MergeProductContentReplaceTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Merge Product Content Compare Versions and compare object">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.MergeProductContentCompareTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Switching Merge Content window to Distribute Content window">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.SwitchMergeToDistributeContentPageTest" />
+		</classes>
+	</test>
+
+	<test name="Distribute Product Content and define new master">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.DistributeProductContentTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Distribute Product Content Clone object,Remove object,Add object">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.DistributeProductContentObjectTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Distribute Product Content Replace object and compare language">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.DistributeProductContentReplaceTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Distribute Product Content Compare Versions and compare object">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.DistributeProductContentCompareTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Switching Distribute Content window to Merge Content window">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.SwitchDistributeToMergeContentPageTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Simple Search Works">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.VerifySimpleSearchTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Extended Search Works">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.VerifyExtendedSearchTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Favorite Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.VerifyFavoriteCreationTest" />
+		</classes>
+	</test>
+
+	<test name="Publish Favorite Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.PublishFavoriteOptionTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Favorite Usages work Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.VerifyFavoriteUsageworksTest" />
+		</classes>
+	</test>
+
+	<test name="Delete Favorite Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.VerifyFavoriteDeletionWorksTest" />
+		</classes>
+	</test>
+
+	<test name="Sort by Standard Attributes">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.SortingByStandardAttibutesTest" />
+		</classes>
+	</test>
+
+	<test name="Sort by Customized Attributes">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.SortingByCustomizeAttributeTest" />
+		</classes>
+	</test>
+
+	<test name="Sort by Filter labels">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.SortByFilterDataTest" />
+		</classes>
+	</test>
+
+	<test name="Filter Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.ProductsFilterTest" />
+		</classes>
+	</test>
+
+	<test name="Delete view Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.DeleteViewTest" />
+		</classes>
+	</test>
+
+	<test name="Delete Product Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.DeleteProductsTest" />
+		</classes>
+	</test>
+
+	<test name="Delete class Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.DeleteClassTest" />
+		</classes>
+	</test>
+
+	<test name="Delete Attribute folder Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.DeleteAttributeTest" />
+		</classes>
+	</test>
+
+	<test name="Verify List Export Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.VerifyListExportTest" />
+		</classes>
+	</test>
+
+	<test name="PIM Export test">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.VerifyPIMExportTest" />
+		</classes>
+	</test>
+
+	<test name="PIM smart import config test">
+		<classes>
+			<class name="org.cs.csautomation.cs.pim.SmartImportTest" />
+		</classes>
+	</test>
+	
+	<test name="Verify control usages works">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.pim.VerifyControlUsagesTest" />
+		</classes>
+	</test>
+
+	<test name="Logout Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.logout.LogoutTest" />
+		</classes>
+	</test> 
+ </suite>

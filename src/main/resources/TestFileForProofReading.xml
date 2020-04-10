@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Proof reading test for notes">
+		<classes>
+			<class name="org.cs.csautomation.mam.ProofReadingNoteTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="Proof reading test of PDF for notes">
+		<classes>
+			<class name="org.cs.csautomation.mam.ProofReadingPDFNoteTest" />
+		</classes>
+	</test>
+
+	<test name="WhiteBoard test for Object placement">
+		<classes>
+			<class name="org.cs.csautomation.mam.WhiteBoardPlacementTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Move placed object form one page to another in whiteboard">
+		<classes>
+			<class
+				name="org.cs.csautomation.mam.ProofReadingMoveSketchesTest" />
+		</classes> 
+	</test> -->
+</suite>

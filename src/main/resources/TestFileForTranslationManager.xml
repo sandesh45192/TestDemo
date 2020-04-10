@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener"/>
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener"/>
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener"/>
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest"/>
+		</classes>
+	</test>
+	
+	 <test name="Translator Selection Test">
+		<classes>
+			<class name="org.cs.csautomation.translationmanager.TranslatorSelectionTest"/>
+		</classes>
+    </test>   
+	
+	  <test name="Translation of Products test">
+		<classes>
+			<class name="org.cs.csautomation.translationmanager.TranslatingProductsTest"/>
+		</classes>
+	  </test>  
+	
+     <test name="Translation of User interface">
+		<classes>
+			<class name="org.cs.csautomation.translationmanager.TranslatingUserInterfaceTest"/>
+		</classes>
+	 </test>    
+	
+	  <test name="Translation of Workflow">
+		<classes>
+			<class name="org.cs.csautomation.translationmanager.TranslatingWorkflowTest"/>
+		</classes>
+	</test>   
+	
+	 <test name="Translation of Value lists">
+		<classes>
+			<class name="org.cs.csautomation.translationmanager.TranslatingValueListTest"/>
+		</classes>
+	</test>      
+		
+	<test name="Translation Simple Selection Field">
+		<classes>
+			<class name="org.cs.csautomation.translationmanager.TranslatingSimpleSelectionFieldTest"/>
+		</classes>
+	</test>
+	 
+	   <test name="Translation job hierarchy">
+		<classes>
+			<class name="org.cs.csautomation.translationmanager.TranslationJobHierarchyTest"/>
+		</classes>
+	</test>     
+	
+	 <test name="Duplicate Job From TreeView Test">
+		 <classes>
+			<class name="org.cs.csautomation.translationmanager.DuplicateJobFromTreeViewTest"/>
+		 </classes>
+	 </test>
+	
+	 <test name="Delete translation entry">
+		<classes>
+			<class name="org.cs.csautomation.translationmanager.DeleteTranslationEntryTest"/>
+		</classes>
+	</test>  
+	
+	   <test name="Delete translation Job">
+		<classes>
+			<class name="org.cs.csautomation.translationmanager.DeleteTranslationJobTest"/>
+		</classes>
+	</test>    
+	</suite>

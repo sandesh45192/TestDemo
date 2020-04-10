@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Create workflow test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.CreateWorkflowTest" />
+		</classes>
+	</test>
+
+	<test name="Create workflow states test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.CreateWorkflowStatesTest" />
+		</classes>
+	</test>
+
+	<test name="Create workflow actions test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.CreateWorkflowActionsTest" />
+		</classes>
+	</test>
+
+	<test name="Create workflow email actions test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.CreateWorkflowEmailActionsTest" />
+		</classes>
+	</test>
+
+	<test name="Create automatic workflow  action test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.CreateAutomaticWorkflowActionsTest" />
+		</classes>
+	</test>
+
+	<test name="Create language dependent workflow actions test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.CreateLanguageDependentWorkflowActionsTest" />
+		</classes>
+	</test>
+
+	<test name="Delete workflow actions test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.DeleteWorkflowActionsTest" />
+		</classes>
+	</test>
+
+	<test name="Delete workflow states test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.DeleteWorkflowStatesTest" />
+		</classes>
+	</test>
+
+	<test name="Delete workflow test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.DeleteWorkflowTest" />
+		</classes>
+	</test>
+
+	<test name="Create automation test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.CreateAutomationTest" />
+		</classes>
+	</test>
+
+	<test name="Execute automation test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.ExecuteAutomationTest" />
+		</classes>
+	</test>
+
+	<test name="Verify automatic execution of automation test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.AutomaticExecutionOfAutomationTest" />
+		</classes>
+	</test>
+
+	<test name="Delete automation test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.workflows.DeleteAutomationTest" />
+		</classes>
+	</test>
+</suite>

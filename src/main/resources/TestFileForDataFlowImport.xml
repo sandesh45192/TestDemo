@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+
+ 	<test name="Data flow CSV import">
+		<classes>
+			<class name="org.cs.csautomation.cs.dataflow.DataflowCSVImportTest" />
+		</classes>
+	</test>
+
+	 <test name="Data flow XML import">
+		<classes>
+			<class name="org.cs.csautomation.cs.dataflow.DataflowXMLImportTest" />
+		</classes>
+	</test>
+
+	<test name="Verify data target type of data flow import">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.dataflow.VerifyImportDataTargetTypeTest" />
+		</classes>
+	</test>
+
+	<test name="Create view via data flow import">
+		<classes>
+			<class name="org.cs.csautomation.cs.dataflow.CreateViewFromImportTest" />
+		</classes>
+	</test>
+
+	 <test name="Create file via data flow import">
+		<classes>
+			<class name="org.cs.csautomation.cs.dataflow.CreateFileFromImportTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Verify execution of script from PIM studio works data flow import">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.dataflow.VerifyExecutionFromPimStudioImportTest" />
+		</classes>
+	</test>
+ 
+	<test name="Verify 'Automation' for Data flow Import Job">
+		<classes>
+			<class name="org.cs.csautomation.cs.dataflow.VerifyAutomationInImportTest" />
+		</classes>
+	</test> 
+	
+	<test name="Logout Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.logout.LogoutTest" />
+		</classes>
+	</test>  
+</suite>

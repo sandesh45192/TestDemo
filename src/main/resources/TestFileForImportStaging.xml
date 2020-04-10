@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+<listeners>
+        <listener
+            class-name="org.cs.csautomation.listeners.SuiteListener" />
+        <listener
+            class-name="org.cs.csautomation.listeners.TestListener" />
+        <listener
+            class-name="org.cs.csautomation.listeners.ExecutionListener" />
+    </listeners>
+
+    <test name="Login Test">
+        <classes>
+            <class name="org.cs.csautomation.cs.login.LoginTest"/>
+        </classes>
+    </test>
+      
+     <test name="Configuration Changes and Database details">
+        <classes>
+            <class name="org.cs.csautomation.cs.importstaging.configureInboxDatabaseTest"/>
+        </classes>
+    </test>
+    
+</suite>

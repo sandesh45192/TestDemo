@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+	
+	<!-- <test name="Connect To Elastic Subscriber">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.elasticsearch.ConnectToElasticSubscriberTest" />
+		</classes>
+	</test> -->
+	
+	<!--<test name="Select Faceted Attribute From Search Setting">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.SelectFacetedAttributeFromSearchSettingTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Verification of Faceted search when ElasticSearch is ON">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.VerificationFacetedWhenElasticOnTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Verification of Faceted search when ElasticSearch is OFF">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.VerificationFacetedWhenElasticOffTest" />
+		</classes>
+	</test>
+
+	<test name="Configuration of the attributes for Faceted search">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.ConfigurationOfattributesForFacetedSearchTest" />
+		</classes>
+	</test>
+
+	<test name="Configuration of Faceted Class">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.ConfigurationOfFacetedClassTest" />
+		</classes>
+	</test>
+
+	<test name="Attribute Mapping in Class">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.AttributeMappingInClassTest" />
+		</classes>
+	</test>
+
+	<test name="Assigning Faceted class to Product folder">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.AssigningFacetedClassToProductFolderTest" />
+		</classes>
+	</test>
+
+	<test name="Create child products">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.CreateChildProductsTest" />
+		</classes>
+	</test> 
+
+	<test name="Editing Child Product attributes">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.EditingChildProductAttributesTest" />
+		</classes>
+	</test>
+
+	 <test name="Creation of new share from open search">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.CreationOfNewShareFromOpenSearchTest" />
+		</classes>
+	</test>
+
+ 	 <test name="Configuration of Share from system preferences">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.ConfigurationOfShareFromSystemPreferencesTest" />
+		</classes>
+	</test>
+
+	<test name="Searching with Faceted search">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.SearchingWithFacetedSearchTest" />
+		</classes>
+	</test>
+
+	 <test name="Filtering of search result with classes">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.FilteringOfSearchResultWithClassesTest" />
+		</classes>
+	</test>-->
+
+	<test name="Verification of result by multiple selection">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.VerificationOfResultByMultipleSelectionTest" />
+		</classes>
+	</test>
+
+<!--	<test name="Usage of 'Clear' button">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.UsageOfClearButtonTest" />
+		</classes>
+	</test>
+
+	<test name="Verification Of Search Result With OR Operator Test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.facetedsearch.VerificationOfSearchResultWithOROperatorTest" />
+		</classes>
+	</test>  -->
+</suite>

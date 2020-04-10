@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Create MAM File Objects">
+		<classes>
+			<class
+				name="org.cs.csautomation.mam.CreateAndEditMamFileObjectsTest" />
+		</classes>
+	</test>
+
+	 <test name="Synchronize mam folder">
+		<classes>
+			<class name="org.cs.csautomation.mam.SynchronizeMamFolderTest" />
+		</classes>
+	</test>
+
+	<test name="Upload file test">
+		<classes>
+			<class name="org.cs.csautomation.mam.UploadFileTest" />
+		</classes>
+	</test>
+
+	<test name="Class creation test">
+		<classes>
+			<class name="org.cs.csautomation.mam.ClassCreationTest" />
+		</classes>
+	</test>
+
+	<test name="Attribute Folder Creation">
+		<classes>
+			<class name="org.cs.csautomation.mam.CreateAttributeFolderTest" />
+		</classes>
+	</test>
+
+	<test name="Attributes creation">
+		<classes>
+			<class name="org.cs.csautomation.mam.CreateAttributesTest" />
+		</classes>
+	</test>
+
+	<test name="Drag and drop class to mam file">
+		<classes>
+			<class
+				name="org.cs.csautomation.mam.DragDropClassToMamFileTest" />
+		</classes>
+	</test>
+
+	<test name="Show in category tree checkbox">
+		<classes>
+			<class name="org.cs.csautomation.mam.VerifyCategoryTreeTest" />
+		</classes>
+	</test>
+
+	<test name="verify different sections of assigned classes">
+		<classes>
+			<class
+				name="org.cs.csautomation.mam.VerifyInheritanceOfClassTest" />
+		</classes>
+	</test>
+
+	<test name="Archive Mam Files">
+		<classes>
+			<class name="org.cs.csautomation.mam.ArchiveMamFileTest" />
+		</classes>
+	</test>
+
+	<test name="Delete Mam metadata and version contexts">
+		<classes>
+			<class
+				name="org.cs.csautomation.mam.DeleteMamMetaDataAndVersionsTest" />
+		</classes>
+	</test>
+
+	<test name="Restore Mam metadata">
+		<classes>
+			<class
+				name="org.cs.csautomation.mam.RestoreMamMetadataAndVersionsTest" />
+		</classes>
+	</test>
+
+	<test name="Rollback Mam metadata">
+		<classes>
+			<class
+				name="org.cs.csautomation.mam.RollbackMamMetadataAndVersionsTest" />
+		</classes>
+	</test>
+
+	<test name="Mam File link creation">
+		<classes>
+			<class name="org.cs.csautomation.mam.LinkCreationOfMamFileTest" />
+		</classes>
+	</test>
+
+	<test name="Edit Mam File Link">
+		<classes>
+			<class name="org.cs.csautomation.mam.EditMamFileLinkTest" />
+		</classes>
+	</test>
+
+	<test name="Unlink mam file">
+		<classes>
+			<class name="org.cs.csautomation.mam.UnlinkMamFileTest" />
+		</classes>
+	</test>
+
+	<test name="Delete Mam File Objects">
+		<classes>
+			<class name="org.cs.csautomation.mam.DeleteMamFileObjectsTest" />
+		</classes>
+	</test>
+
+	<test name="Check For Duplicates At Global Level">
+		<classes>
+			<class
+				name="org.cs.csautomation.mam.CheckForDuplicatesAtGlobalLevelTest" />
+		</classes>
+	</test>
+
+	<test name="Check For Duplicates At Folder Level">
+		<classes>
+			<class
+				name="org.cs.csautomation.mam.CheckForDuplicatesAtFolderLevelTest" />
+		</classes>
+	</test>
+
+	<test name="Download from file workds">
+		<classes>
+			<class name="org.cs.csautomation.mam.DownloadFromFileWorksTest" />
+		</classes>
+	</test>
+</suite>

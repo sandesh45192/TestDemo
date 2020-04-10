@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Create New Template">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.projectmanager.CreateNewTemplateTest" />
+		</classes>
+	</test> 
+
+	<test name="Create New Template Task">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.projectmanager.CreateNewTemplateTaskTest" />
+		</classes>
+	</test>
+
+	<test name="Assign template to User">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.projectmanager.AssignTemplateToUserTest" />
+		</classes>
+	</test>
+
+	<test name="Create New Project">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.projectmanager.CreateNewProjectTest" />
+		</classes>
+	</test>
+
+	<test name="Delete product task test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.projectmanager.DeleteProductTaskTest" />
+		</classes>
+	</test>
+
+	<test name="Delete project test">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.projectmanager.DeleteProjectFloderTest" />
+		</classes>
+	</test>
+	
+	<test name="Delete template task">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.projectmanager.DeleteTemplateTaskTest" />
+		</classes>
+	</test>
+
+	<test name="Delete template">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.projectmanager.DeleteTemplateTest" />
+		</classes>
+	</test>
+
+	<test name="Logout Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.logout.LogoutTest" />
+		</classes>
+	</test>
+</suite>

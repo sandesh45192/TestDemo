@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener" />
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener" />
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="Connect To Elastic Subscriber">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.elasticsearch.ConnectToElasticSubscriberTest" />
+		</classes>
+	</test>
+
+	<test name="Attribute Configuration">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.elasticsearch.AttributeConfigurationTest" />
+		</classes>
+	</test>
+
+	<test name="Create Products And Add Data">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.elasticsearch.CreateProductsAndAddDataTest" />
+		</classes>
+	</test>  -->
+
+	 <test name="Simple Search">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.elasticsearch.SimpleSearchTest" />
+		</classes>
+	</test>
+
+	<test name="Advance Search">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.elasticsearch.AdvanceSearchTest" />
+		</classes>
+	</test>
+
+	<test name="Advance Search on Table Attribute">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.elasticsearch.AdvanceSearchOfTableTypeAttributeTest" />
+		</classes>
+	</test>
+
+	<test
+		name="Mass deletion of products and searching simultaneously">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.elasticsearch.MassDeletionAndSearchOfDataTest" />
+		</classes>
+	</test>
+
+	<test name="Mass Import and Advance Search simultaneously">
+		<classes>
+			<class
+				name="org.cs.csautomation.cs.elasticsearch.MassImportAndAdvanceSearchingTest" />
+		</classes>
+	</test> 
+</suite>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CS Automation" parallel="none">
+
+	<listeners>
+		<listener
+			class-name="org.cs.csautomation.listeners.SuiteListener"/>
+		<listener
+			class-name="org.cs.csautomation.listeners.TestListener"/>
+		<listener
+			class-name="org.cs.csautomation.listeners.ExecutionListener"/>
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			<class name="org.cs.csautomation.cs.login.LoginTest"/>
+		</classes>
+	</test>
+	
+     <test name="Add Tile Test">
+		<classes>
+			<class name="org.cs.csautomation.dashboard.AddTileTest"/>
+		</classes>
+	</test> 
+	
+	<test name="Configuratin and Verification of DQ app">
+		<classes>
+			<class name="org.cs.csautomation.dashboard.ConfigurationAndVerificationOfDQAppTest"/>
+		</classes>
+	</test>    
+	
+       <test name="Dashboard configuration for context app">
+		<classes>
+			<class name="org.cs.csautomation.dashboard.DashboardConfigurationForContextAppTest"/>
+		</classes>
+	</test>  
+	
+	   <test name="Delete dashboard tile">
+		<classes>
+			<class name="org.cs.csautomation.dashboard.DeleteTileTest"/>
+		</classes>
+	</test>   
+  
+	</suite>
